@@ -1,0 +1,26 @@
+{
+  "name": "wiki-dict",
+  "version": "0.0.1",
+  "description": "Turn a Github Wiki page into a dictionary. Inspired by https://github.com/visionmedia/node-wiki-registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CatTail/node-wiki-dict.git"
+  },
+  "keywords": [
+    "wiki",
+    "dict"
+  ],
+  "author": "CatTail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CatTail/node-wiki-dict/issues"
+  },
+  "dependencies": {
+    "cheerio": "~0.12.4",
+    "superagent": "~0.15.7"
+  }
+}
